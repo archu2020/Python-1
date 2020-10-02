@@ -25,3 +25,11 @@ for link in soup.find_all('a'):
 
 
 #print(list)
+
+# this program will healp to get the ip address 
+
+import socket
+hostname=socket.gethostname()
+ipAdd=socket.gethostbyname(hostname)
+print(hostname)
+print(ipAdd)
